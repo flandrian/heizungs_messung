@@ -1,0 +1,2 @@
+adduser tinkwise --system --no-create-home
+usermod -a -G dialout tinkwise
