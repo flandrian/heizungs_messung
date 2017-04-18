@@ -1,2 +1,2 @@
-adduser tinkwise --system --no-create-home
-usermod -a -G dialout tinkwise
+adduser pt100 --system --no-create-home
+usermod -a -G dialout pt100
