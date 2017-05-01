@@ -11,7 +11,7 @@ Adafruit_MAX31865 *sensors[NUM_SENSORS] = {&sensor_0, &sensor_1};
 static const int RREF = 430;
 static const size_t FIRST_NODE = 10;
 
-static const size_t MEASUREMENT_PERIOD_MS = 600000;
+static const unsigned long MEASUREMENT_PERIOD_MS = 600000;
 #define FLOAT_BUFFER_SIZE 10
 char float_buffer[FLOAT_BUFFER_SIZE];
 
