@@ -21,7 +21,7 @@ void setup() {
   Serial.begin(115200);
   Serial.println("Adafruit MAX31865 PT100 Sensor Test!");
 
-  sensor_0.begin(MAX31865_2WIRE);
+  sensor_0.begin(MAX31865_4WIRE);
   sensor_1.begin(MAX31865_4WIRE);
 }
 
